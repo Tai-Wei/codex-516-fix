@@ -1,6 +1,6 @@
 # codex-516-fix
 
-一个针对 [openai/codex#29353](https://github.com/openai/codex/issues/29353) 的 `AGENTS.md` 规避配置。
+一个针对 [openai/codex#29353](https://github.com/openai/codex/issues/29353) 的 `AGENTS.md` 规避配置。在最新版本中已修复，存档。
 
 这个项目不是 OpenAI 官方补丁，也不会修改 Codex Desktop、模型路由或 reasoning budget 的内部实现。它提供的是一份项目级或全局级的 `AGENTS.md`，用更严格的问题分析规则降低 Codex 在复杂推理题上过早直出错误答案的概率。
 
